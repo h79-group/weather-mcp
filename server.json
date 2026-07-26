@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.weatherintouch/weather-intouch",
+  "title": "Weather InTouch",
+  "description": "Weather forecasts plus official government severe-weather warnings (CAP) aggregated from national authorities across 7 countries (NWS, ČHMÚ, DWD, MET Norway, MSC, IMD, Met Éireann), with mandatory source attribution. Read-only, no API key required.",
+  "version": "0.1.0",
+  "websiteUrl": "https://weatherintouch.com",
+  "repository": {
+    "url": "https://github.com/weatherintouch/weather-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.weatherintouch.com/api/mcp"
+    }
+  ]
+}
